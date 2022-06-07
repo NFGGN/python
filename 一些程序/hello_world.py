@@ -1,4 +1,6 @@
-import pandas as pd
-import numpy as np
-import scipy
-import matplotlib
+
+j = 0
+for i in range(100):
+    for k in range(100):
+        j += k
+print(j)
